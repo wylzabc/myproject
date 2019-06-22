@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main() {
 	var numbers []int
@@ -9,4 +12,5 @@ func main() {
 		numbers = append(numbers, i)
 		fmt.Printf("len: %d  cap: %d  pointer: %p\n", len(numbers), cap(numbers), numbers)
 	}
+	fmt.Println(time.Now())
 }
