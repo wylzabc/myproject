@@ -10,6 +10,7 @@ func visit (list []int, f func(int)) {
 
 func print(v int) {
 	fmt.Println(v)
+	fmt.Println("hello world")
 }
 func main(){
 	f := print
